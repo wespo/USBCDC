@@ -254,8 +254,8 @@ Uint16    deviceDesc[9] =	{
 								0x0200,	// USB Spec Release Number in BCD format
 								0x0002, // Sub-class code - 00 | Class code - 02 (CDC)
 								0x4000, // Maximum packet size for EP0 USB 64 | Protocol code
-								0x0451,	// Vendor ID
-								0x9010, // Product ID
+								0x0403, //0x0451,	// Vendor ID
+								0xA6D0,//0x9010, // Product ID
 								0x0100, // Device release number in BCD format
 								0x0201, // Product string index | Manufacturer string index
 								0x0103	// Number of Configuration | Device serial number string index
